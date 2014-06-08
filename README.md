@@ -9,7 +9,9 @@ var as = require('a-sync')
 var assert = require('assert')
 
 var plus1 = as(function(num){
-  if (typeof num !== 'number')
+  if (typeof num !== 'number') {
+    throw new Error('not a number')
+  }
   return num + 1
 })
 
