@@ -2,7 +2,7 @@ function _last(arr) {
   return Array.prototype.slice.call(arr, -1)[0]
 }
 
-module.exports = function wrap(fn) {
+module.exports = function (fn) {
   return function() {
     var cb = _last(arguments)
     var hasCb = typeof cb === 'function'
