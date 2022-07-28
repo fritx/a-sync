@@ -5,7 +5,7 @@
 ---
 
 Wow!! [**@tj**](https://github.com/tj) likes this repo!<br>
-See https://github.com/fritx/a-sync/pull/1#issuecomment-45505942
+See https://github.com/fritx/a-sync__fork_protected/pull/1#issuecomment-45505942
 
 ## Usage
 
